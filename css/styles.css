@@ -12,7 +12,7 @@ a{
     text-decoration: none;
 }
 
-.logo {
+.logo-header-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -55,14 +55,15 @@ a{
  
 .section-hero {
 background-color: #2e2f42;
-text-align: center;
+
 
 }
-.h1-title-hero{
+.title-hero{
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
 color: #ffffff;
+text-align: center;
 }
 
 .button{
@@ -72,59 +73,74 @@ color: #ffffff;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    color: background-color: #404BBF;
+    
+    
 }
- 
-.section-adventures{
+ .button:hover,
+ .button:focus{
+    background-color: #404BBF
+ }
+   
+.title-adventures{
     font-weight: 500;
-    height: 732px;   
-}
-.h2-title-adventures{
-    font-size: 20px ;
+     font-size: 20px ;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    width: 1440px;
 }
-.p-adventures-item-description{
+   
+.adventures-item-description{
  line-height: 1.2;
  letter-spacing: 0.02em;   
 }
 .section-team{
     background-color: #f4f4fd;
 }
-.h2-team-title{
+.team-title{
  font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 }   
-.p-team-item-description{
- line-height: 1.2;
+.team-item-description{
+ line-height: 1.5;
  letter-spacing: 0.02em;   
 }
 .section-portfolio{
 
 }
-.h2-portfolio{
+.portfolio{
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
+}
+.portfolio-item-title{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
 }
 
+.portfolio-item-description{
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+
+}
 .page-footer{
     background-color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     
 }
-.footer-logo .logo-part {
-  color: #f4f4fd;
+.logo-footer-logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 18px;
@@ -132,5 +148,12 @@ color: #2e2f42;
   letter-spacing: 0.03em
   text-transform: uppercase;
   color: #4d5ae5;
+}
 
+.footer-description{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
 }
