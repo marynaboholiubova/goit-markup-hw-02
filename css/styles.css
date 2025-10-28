@@ -123,7 +123,10 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;   
 }
-.team-item-description{
+.team-list{
+background-color: #FFFFFF     
+}
+.team-item-descriprion{
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
@@ -161,16 +164,16 @@ color: #434455;
     
 }
 .logo-footer-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.03em
   text-transform: uppercase;
   color: #4d5ae5;
+  letter-spacing: 0.03em;
 }
 .logo-part{
-color:#2e2f42;    
+color: #f4f4fd  
 }
 
 .footer-description{
